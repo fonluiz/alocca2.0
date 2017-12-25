@@ -1,0 +1,2 @@
+# instalar todas as peers dependencies
+sudo npm install -g install-peerdeps
