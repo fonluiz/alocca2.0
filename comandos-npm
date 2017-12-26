@@ -1,2 +1,7 @@
 # instalar todas as peers dependencies
 sudo npm install -g install-peerdeps
+
+# Resolver o problema de cannot find namespace firebase:
+npm uninstall --save firebase
+npm install --save firebase@4.8.0
+
