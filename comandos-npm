@@ -1,5 +1,6 @@
 # instalar todas as peers dependencies
-sudo npm install -g install-peerdeps
+sudo npm install -g npm-install-peers # Instalação
+npm-install-peers   # usage
 
 # Resolver o problema de cannot find namespace firebase:
 npm uninstall --save firebase
