@@ -7,10 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AngularMaterialImporterModule } from './angular-material-importer/angular-material-importer.module'
 import { NavbarModule } from './navbar/navbar.module'
+import { ProfessorsModule } from './professors/professors.module'
 
 import { AppComponent } from './app.component';
 
 import { environment } from '../environments/environment';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { environment } from '../environments/environment';
     AngularFireDatabaseModule,
     BrowserAnimationsModule,
     AngularMaterialImporterModule,
-    NavbarModule
+    NavbarModule,
+    ProfessorsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
