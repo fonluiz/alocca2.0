@@ -6,6 +6,7 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AngularMaterialImporterModule } from './angular-material-importer/angular-material-importer.module'
+import { NavbarModule } from './navbar/navbar.module'
 
 import { AppComponent } from './app.component';
 
@@ -22,7 +23,8 @@ import { environment } from '../environments/environment';
     AngularFireAuthModule,
     AngularFireDatabaseModule,
     BrowserAnimationsModule,
-    AngularMaterialImporterModule
+    AngularMaterialImporterModule,
+    NavbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
